@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/joenightingale
   gitUsername: joenightingale
   gitBranch: main
+services:
+- serviceName: project.aajoe3.integrations:test32
+  packages:
+  - name: AaJoe3Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2040
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
